@@ -171,6 +171,30 @@ legend {
   color: #605e5c;
 }
 
+.copy-button {
+  margin-left: auto;
+  padding: 2px 10px;
+  border: 1px solid #c8c6c4;
+  border-radius: 4px;
+  background: #f3f2f1;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.copy-button:hover,
+.copy-button:focus {
+  background: #e1dfdd;
+  border-color: #a19f9d;
+  outline: none;
+}
+
+.copy-button.copy-success {
+  background: #c7e0f4;
+  border-color: #005a9e;
+  color: #004578;
+}
+
 .option-toggle-group {
   display: flex;
   flex-direction: column;
